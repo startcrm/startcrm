@@ -14,6 +14,6 @@
 
 # Declare files that should have LF line endings on checkout.
 *.cs eol=lf
-*.cshtml eol=lf
+*.razor eol=lf
 
 # Declare files that are truly binary and shouldn't be modified.
