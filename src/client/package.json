@@ -1,0 +1,11 @@
+{
+	"name": "@startcrm/client",
+	"type": "module",
+	"devDependencies": {
+		"bun-types": "latest",
+		"tailwindcss": "^3.3.5"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

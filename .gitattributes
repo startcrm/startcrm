@@ -17,3 +17,4 @@
 *.razor eol=lf
 
 # Declare files that are truly binary and shouldn't be modified.
+*.lockb binary diff=lockb
