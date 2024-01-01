@@ -3,6 +3,7 @@
 	"type": "module",
 	"devDependencies": {
 		"bun-types": "latest",
+		"daisyui": "latest",
 		"tailwindcss": "^3.3.5"
 	},
 	"peerDependencies": {
