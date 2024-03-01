@@ -14,6 +14,17 @@
  * You should have received a copy of the GNU Affero General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
+using SurrealDb.Net.Models;
 namespace StartCRM.Domain;
 
-public abstract record Entity(Guid Id, DateTime CreatedAt, Guid CreatedById);
+public class Entity : Record
+{
+	public Entity(Thing? createdById)
+	{
+		CreatedAt = DateTime.Now;
+		CreatedById = createdById;
+	}
+
+	public DateTime CreatedAt { get; private set; }
+	public Thing? CreatedById { get; private set; }
+}
