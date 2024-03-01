@@ -8,7 +8,7 @@ EndProject
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartCRM.Client", "src\client\StartCRM.Client.csproj", "{44EA7495-E19F-435F-9F4E-BE719466A606}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartCRM.Shared", "src\shared\StartCRM.Shared.csproj", "{EE5DEC64-0280-4209-92E2-CE79C6637D99}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartCRM.Domain", "src\domain\StartCRM.Domain.csproj", "{EE5DEC64-0280-4209-92E2-CE79C6637D99}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
