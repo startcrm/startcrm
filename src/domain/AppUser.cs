@@ -15,14 +15,10 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 using SurrealDb.Net.Models;
-using System.Security.Principal;
 namespace StartCRM.Domain;
 
-public class AppUser : Entity, IIdentity
+public class AppUser : Entity
 {
-	public string AuthenticationType { get; set; }
-	public bool IsAuthenticated { get; set; }
-	public string Name { get; set; }
 	public AppUser(Thing? createdById) : base(createdById)
 	{
 
