@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<ItemGroup>
-		<ProjectReference Include="..\shared\StartCRM.Shared.csproj" />
+		<ProjectReference Include="..\domain\StartCRM.Domain.csproj" />
 	</ItemGroup>
 
 	<PropertyGroup>
